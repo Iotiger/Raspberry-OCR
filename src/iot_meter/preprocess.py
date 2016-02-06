@@ -58,3 +58,4 @@ def preprocess_image(image: "cv2.Mat", cfg: PreprocessConfig) -> "cv2.Mat":
 		frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
 	return frame
+
