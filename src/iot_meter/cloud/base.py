@@ -13,3 +13,4 @@ class CloudSink(ABC):
 class NullSink(CloudSink):
 	def publish(self, payload: Dict[str, Any]) -> None:
 		return
+
