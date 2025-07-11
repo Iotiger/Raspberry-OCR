@@ -1,0 +1,25 @@
+meter:
+	meter_id: E12345
+	unit: kWh
+	ocr_psm: 7
+	ocr_oem: 1
+camera:
+	device: auto
+	index: 0
+	resolution: [1280, 720]
+preprocess:
+	grayscale: true
+	denoise: true
+	threshold: otsu
+	invert: false
+	# roi: [100, 200, 600, 200]
+cloud:
+	sink: none
+	mqtt:
+		host: test.mosquitto.org
+		port: 1883
+		topic: iot/meters/E12345
+		username:
+		password:
+output:
+	save_debug: false
