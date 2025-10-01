@@ -94,7 +94,6 @@ output:
 ## Environment (.env)
 - `TESSERACT_CMD`: Full path to tesseract executable if not in PATH
 - `MQTT_USERNAME`, `MQTT_PASSWORD`: Optional overrides
-
 ## CLI Examples
 - Save debug images for verification:
 ```bash
@@ -104,7 +103,6 @@ python -m src.iot_meter.cli run-once --save-debug debug --output out.json
 ```bash
 python -m src.iot_meter.cli run-once --config config/config.yaml --mqtt --output out.json
 ```
-
 ## Notes on Accuracy
 - Tune ROI manually for your meter model
 - Try `psm=7` for single line digits; `psm=6` for blocks
