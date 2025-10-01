@@ -90,7 +90,6 @@ cloud:
 output:
   save_debug: false
 ```
-
 ## Environment (.env)
 - `TESSERACT_CMD`: Full path to tesseract executable if not in PATH
 - `MQTT_USERNAME`, `MQTT_PASSWORD`: Optional overrides
