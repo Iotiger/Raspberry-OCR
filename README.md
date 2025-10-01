@@ -111,9 +111,6 @@ python -m src.iot_meter.cli run-once --config config/config.yaml --mqtt --output
 - Use `--oem 1` or `3` depending on platform
 - Add illumination (IR for low light) and stabilize camera
 
-## License
-MIT
-
 
 
 
